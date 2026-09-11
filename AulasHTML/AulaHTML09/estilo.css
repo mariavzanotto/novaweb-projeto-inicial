@@ -1,0 +1,25 @@
+/*
+Descrição: Exercícios da Aula 09 - Tipos de estilos, inline, interno e externo, box model
+nome_arquivo: estilo.css
+nome_exercicio: Atividade 09 - Tipos de estilos, inline, interno e externo, box model
+nome_aluno: Maria Fernanda de Oliveira Zanotto
+email_aluno: maria.zanotto@edu.senai.br
+turma: TBE-1BAA-26
+*/
+
+.primeira-coluna {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.segunda-coluna {
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
