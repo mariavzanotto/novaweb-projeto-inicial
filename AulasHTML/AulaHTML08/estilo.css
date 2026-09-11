@@ -1,0 +1,49 @@
+/*
+Descrição: Exercícios da Aula 08 - Alugramação e posicionamento com divs (opcional)
+nome_arquivo: estilo.css
+nome_exercicio: Atividade 08 - Alugramação e posicionamento com divs (opcional)
+nome_aluno: Maria Fernanda de Oliveira Zanotto
+email_aluno: maria.zanotto@edu.senai.br
+turma: TBE-1BAA-26
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #e7b2d6;
+    padding: 10px;
+}
+
+.coluna-principal {
+    float: left;
+    width: 65%;
+    background-color: #f1c75c;
+    padding: 15px;
+}
+
+.coluna-secundaria {
+    float: right;
+    width: 30%;
+    background-color: #e578ef;
+    padding: 15px;
+}
+
+.limpa-flutuacao {
+    clear: both;
+}
+
+.botao-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
