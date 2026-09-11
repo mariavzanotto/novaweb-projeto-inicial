@@ -1,0 +1,30 @@
+/*
+Descrição: Exercícios da Aula 04 - Introdução ao CSS e Seletores
+nome_arquivo: index.html
+nome_exercicio: Atividade 04 - Introdução ao CSS e Seletores
+nome_aluno: Maria Fernanda de Oliveira Zanotto
+email_aluno: maria.zanotto@edu.senai.br
+turma: TBE-1BAA-26
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    color: purple;
+}
+
+#descricao {
+    font-size: 20px;
+}
+
+.paragrafo-simples {
+    color: black;
+}
+
+nav a {
+    color: magenta;
+    margin-right: 15px;
+}
