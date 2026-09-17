@@ -1,0 +1,134 @@
+/*
+Descrição: Situação de Aprendizagem 01 - Livraria Bergaz
+nome_arquivo: style.css
+nome_projeto: Livraria Bergaz
+nome_aluno: Maria Fernanda de Oliveira Zanotto
+email_aluno: maria.zanotto@edu.senai.br
+turma: TBE-1BAA-26
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E6D9F2;
+    color: #333333;
+}
+
+header {
+    background-color: #2c1447;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 180px;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #8E6BBE;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+/* HOME */
+
+.section1 {
+    background-color: #E6D9F2;
+    padding: 80px 20px;
+}
+
+.section1 h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #2D1551;
+    margin-bottom: 15px;
+}
+
+.section1 p {
+    margin-bottom: 25px;
+}
+
+.section1 a {
+    background-color: #8E6BBE;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.section2 {
+    background-color: #E6D9F2;
+}
+
+.section2 h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #2D1551;
+    margin-bottom: 30px;
+}
+
+.section2 article {
+    background-color: white;
+    display: inline-block;
+    width: 30%;
+    height: 170px;
+    padding: 25px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.section2 article h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8E6BBE;
+    margin-bottom: 15px;
+}
+
+.section2 article p {
+    margin-bottom: 20px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #2c1447;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    margin: 10px;
+}
