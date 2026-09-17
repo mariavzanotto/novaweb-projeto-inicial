@@ -161,3 +161,42 @@ footer p {
 .livro p {
     margin-bottom: 10px;
 }
+
+/* CONTATO */
+
+form {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    background-color: #8E6BBE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2D1551;
+}
