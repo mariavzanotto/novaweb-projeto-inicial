@@ -132,3 +132,32 @@ footer {
 footer p {
     margin: 10px;
 }
+
+/* LIVROS */
+
+.livro {
+    background-color: white;
+    display: inline-block;
+    width: 30%;
+    min-height: 550px;
+    padding: 25px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.livro img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.livro h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8E6BBE;
+    margin-bottom: 15px;
+}
+
+.livro p {
+    margin-bottom: 10px;
+}
