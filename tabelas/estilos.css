@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+header {
+    background-color: #050505;
+    color: #f6e604;
+    padding: 1px;
+    text-align: center;
+}
+
+.direita{
+    position: absolute;
+    width: 200px;
+    right: 200px;
+    top: 15%;
+    transform: translateY(-50%);
+}
+
+.esquerda{
+    position: absolute;
+    width: 150px;
+    left: 200px;
+    top: 15%;
+    transform: translateY(-50%);
+}
+
+.titulo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFE81F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header nav {
+    background-color: #454c5d;
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    height: 30px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+}
+
+header nav ul li a {
+    font-family: 'Orbitron', sans-serif;
+    color: #4DA6FF;
+    position: relative;
+    display: block;
+    margin: 10px;
+}
+
+main {
+    background-color: #252A3A;
+    padding: 5px;
+    color: #f6e604;
+    padding: 20px;
+}
+
+main table {
+    background-color: #75767a;
+    font-family: 'Orbitron', sans-serif;
+    width: 400px;
+    border: 1px solid #B8BCC8;
+    margin: 0 auto;
+    color: #FFFFFF
+}
+
+main table td, main table th {
+    border: 1px solid #fcfbfb;
+    text-align: center;
+    background-color: #75767a;
+}
+
+main table td img:hover {
+    width: 150px;
+}
+
+.Cabeçalho {
+    background-color: #000000;
+    color: #f6e604;
+}
+
+.Informações {
+    background-color: #f6e604;
+    color:#050505
+}
+footer {
+    background-color: #050505;
+    color: #f6e604;
+    padding: 5px;
+    text-align: center;
+}
