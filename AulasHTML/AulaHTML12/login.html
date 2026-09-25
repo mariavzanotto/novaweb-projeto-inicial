@@ -1,0 +1,38 @@
+<!--
+Descrição: Exercícios da Aula 12 - Introdução aos Formulários Web
+nome_arquivo: login.html
+nome_exercicio: Atividade 12 - Introdução aos Formulários Web
+nome_aluno: Maria Fernanda de Oliveira Zanotto
+email_aluno: maria.zanotto@edu.senai.br
+turma: TBE-1BAA-26
+--> 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Web</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login">
+        <h1 class="paginadelogin">Página de Login</h1>
+        <form id="formLogin">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+            <p id="emailErro"></p>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+            <p id="senhaErro"></p>
+            <button type="submit">Entrar</button>
+            <div class="links">
+                <a href="#">Criar cadastro</a>
+                <a href="#">Esqueci minha senha</a>
+            </div>
+            <p id="resultado"></p>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
