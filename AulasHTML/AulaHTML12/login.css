@@ -1,0 +1,105 @@
+/*
+Descrição: Exercícios da Aula 12 - Introdução aos Formulários Web
+nome_arquivo: login.css
+nome_exercicio: Atividade 12 - Introdução aos Formulários Web
+nome_aluno: Maria Fernanda de Oliveira Zanotto
+email_aluno: maria.zanotto@edu.senai.br
+turma: TBE-1BAA-26
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #182238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.paginadelogin {
+    color: #448ad5;
+}
+
+.login {
+    background-color: #3a5b91;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #4da3ff;
+    box-shadow: 0 0 20px #0b1d35;
+}
+
+.login h1 {
+    text-align: center;
+    color: #4da3ff;
+    margin-bottom: 25px;
+}
+
+.login label {
+    display: block;
+    margin-top: 15px;
+    color: white;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: #162238;
+    color: white;
+    border: 1px solid #4da3ff;
+    border-radius: 5px;
+}
+
+.login input:focus {
+    outline: none;
+    border-color: #78bdff;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4da3ff;
+    color: #102039;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #78bdff;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #78bdff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.links a:hover {
+    color: white;
+}
+
+#emailErro,
+#senhaErro {
+    color: #ff6b6b;
+    font-size: 12px;
+}
+
+#resultado {
+    text-align: center;
+    color: #4da3ff;
+}
