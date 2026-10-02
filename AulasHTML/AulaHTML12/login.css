@@ -7,11 +7,11 @@ email_aluno: maria.zanotto@edu.senai.br
 turma: TBE-1BAA-26
 */ 
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
 
 body {
-    font-family: 'Orbitron', sans-serif;
-    background-color: #182238;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #35145E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,62 +19,61 @@ body {
     margin: 0;
 }
 
-.paginadelogin {
-    color: #448ad5;
-}
-
 .login {
-    background-color: #3a5b91;
-    width: 350px;
-    padding: 30px;
-    border-radius: 10px;
-    border: 1px solid #4da3ff;
-    box-shadow: 0 0 20px #0b1d35;
+    background-color: #E6D9F2;
+    width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    border: 2px solid #8E6BBE;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
 .login h1 {
     text-align: center;
-    color: #4da3ff;
-    margin-bottom: 25px;
+    color: #35145E;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
 }
 
 .login label {
     display: block;
     margin-top: 15px;
-    color: white;
+    color: #35145E;
+    font-weight: 600;
 }
 
 .login input {
     width: 100%;
-    padding: 10px;
-    margin-top: 5px;
+    padding: 12px;
+    margin-top: 6px;
     box-sizing: border-box;
-    background-color: #162238;
-    color: white;
-    border: 1px solid #4da3ff;
+    background-color: #FFFFFF;
+    color: #35145E;
+    border: 1px solid #8E6BBE;
     border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .login input:focus {
     outline: none;
-    border-color: #78bdff;
+    border-color: #35145E;
 }
 
 .login button {
     width: 100%;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #4da3ff;
-    color: #102039;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #FAECA5;
+    color: #35145E;
     border: none;
     border-radius: 5px;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     cursor: pointer;
 }
 
 .login button:hover {
-    background-color: #78bdff;
+    background-color: #F3E18A;
 }
 
 .links {
@@ -84,22 +83,22 @@ body {
 }
 
 .links a {
-    color: #78bdff;
+    color: #35145E;
     text-decoration: none;
     font-size: 12px;
 }
 
 .links a:hover {
-    color: white;
+    color: #8E6BBE;
 }
 
 #emailErro,
 #senhaErro {
-    color: #ff6b6b;
+    color: #C94C4C;
     font-size: 12px;
 }
 
 #resultado {
     text-align: center;
-    color: #4da3ff;
+    color: #35145E;
 }
