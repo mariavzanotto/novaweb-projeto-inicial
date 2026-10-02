@@ -39,4 +39,4 @@ formulario.addEventListener("submit", function(event) {
         resultado.innerHTML = "Login preenchido corretamente!"
     }
 
-})
+}) 
