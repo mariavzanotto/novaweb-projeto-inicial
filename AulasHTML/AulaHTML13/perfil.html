@@ -6,3 +6,152 @@ nome_aluno: Maria Fernanda de Oliveira Zanotto
 email_aluno: maria.zanotto@edu.senai.br
 turma: TBE-1BAA-26
 -->   
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Bem-vindo ao Perfil</h1>
+    </header>
+    <main>
+        <form>
+            <div id="mensagem" style="display: none;"></div>
+
+            <div class="foto">
+                <img src="perfil.jpg" alt="Foto de Perfil" class="foto-perfil">
+            </div>
+
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nascimento">Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" required>
+            </div>
+
+            <div class="form-group">
+                <label>Sexo:</label>
+
+                <div class="opcao">
+                    <input type="radio" id="feminino" name="sexo" value="Feminino">
+                    <label for="feminino">Feminino</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" id="masculino" name="sexo" value="Masculino">
+                    <label for="masculino">Masculino</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf"
+                       maxlength="11" placeholder="Digite os 11 números do seu CPF"
+                       onblur="validaCPF()" required>
+            </div>
+
+            <div class="form-group">
+                <label>Preferência de contato:</label>
+
+                <div class="opcao">
+                    <input type="radio" id="email" name="contato" value="E-mail">
+                    <label for="email">E-mail</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" id="telefone" name="contato" value="Telefone">
+                    <label for="telefone">Telefone</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="radio" id="whatsapp" name="contato" value="WhatsApp">
+                    <label for="whatsapp">WhatsApp</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Áreas de interesse:</label>
+
+                <div class="opcao">
+                    <input type="checkbox" id="html" name="interesses" value="HTML">
+                    <label for="html">HTML</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" id="css" name="interesses" value="CSS">
+                    <label for="css">CSS</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" id="javascript" name="interesses" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" id="design" name="interesses" value="Design">
+                    <label for="design">Design</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" id="banco" name="interesses" value="Banco de Dados">
+                    <label for="banco">Banco de Dados</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" id="redes" name="interesses" value="Redes">
+                    <label for="redes">Redes de Computadores</label>
+                </div>
+
+                <div class="opcao">
+                    <input type="checkbox" id="programacao" name="interesses" value="Programação">
+                    <label for="programacao">Programação</label>
+                </div>
+            </div>
+
+            </div>
+            </div>
+
+            <div class="form-group">
+                <label for="curso">Curso:</label>
+
+                <select id="curso" name="curso" required>
+                    <option >Selecione seu curso</option>
+                    <option value="Informática">Informática</option>
+                    <option value="Programação">Programação</option>
+                    <option value="Desenvolvimento Web">Desenvolvimento Web</option>
+                    <option value="Redes de Computadores">Redes de Computadores</option>
+                    <option value="Análise de Sistemas">Análise de Sistemas</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="descricao">Sobre mim:</label>
+                <textarea id="descricao" name="descricao"
+                          placeholder="Escreva um pouco sobre você"
+                          required></textarea>
+            </div>
+
+            <div class="botoes">
+                <button type="button" onclick="mensagem()">Salvar</button>
+                <button type="reset" onclick="limparMensagem()">Limpar</button>
+            </div>
+        </form>
+    </main>
+    <script ></script>
+</body>
+</html>
