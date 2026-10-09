@@ -17,19 +17,18 @@ turma: TBE-1BAA-26
 </head>
 <body>
     <header>
-        <h1 class="titulo">Bem-vindo ao Perfil</h1>
+        <h1 class="titulo">Bem-vindo ao Perfil!</h1>
     </header>
     <main>
         <form>
-            <div id="mensagem" style="display: none;"></div>
-
             <div class="foto">
                 <img src="perfil.jpg" alt="Foto de Perfil" class="foto-perfil">
             </div>
 
             <div class="form-group">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <input type="text" id="nome" name="nome"
+                       placeholder="Digite seu nome" required>
             </div>
 
             <div class="form-group">
@@ -45,16 +44,15 @@ turma: TBE-1BAA-26
 
             <div class="form-group">
                 <label>Sexo:</label>
+                    <div class="opcao">
+                        <input type="radio" id="feminino" name="sexo" value="Feminino">
+                        <label for="feminino">Feminino</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="radio" id="feminino" name="sexo" value="Feminino">
-                    <label for="feminino">Feminino</label>
-                </div>
-
-                <div class="opcao">
-                    <input type="radio" id="masculino" name="sexo" value="Masculino">
-                    <label for="masculino">Masculino</label>
-                </div>
+                    <div class="opcao">
+                        <input type="radio" id="masculino" name="sexo" value="Masculino">
+                        <label for="masculino">Masculino</label>
+                    </div>
             </div>
 
             <div class="form-group">
@@ -67,91 +65,156 @@ turma: TBE-1BAA-26
             <div class="form-group">
                 <label>Preferência de contato:</label>
 
-                <div class="opcao">
-                    <input type="radio" id="email" name="contato" value="E-mail">
-                    <label for="email">E-mail</label>
-                </div>
+                    <div class="opcao">
+                        <input type="radio" id="contato-email" name="contato" value="E-mail">
+                        <label for="contato-email">E-mail</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="radio" id="telefone" name="contato" value="Telefone">
-                    <label for="telefone">Telefone</label>
-                </div>
+                    <div class="opcao">
+                        <input type="radio" id="telefone" name="contato" value="Telefone">
+                        <label for="telefone">Telefone</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="radio" id="whatsapp" name="contato" value="WhatsApp">
-                    <label for="whatsapp">WhatsApp</label>
-                </div>
+                    <div class="opcao">
+                        <input type="radio" id="whatsapp" name="contato" value="WhatsApp">
+                        <label for="whatsapp">WhatsApp</label>
+                    </div>
             </div>
 
             <div class="form-group">
                 <label>Áreas de interesse:</label>
 
-                <div class="opcao">
-                    <input type="checkbox" id="html" name="interesses" value="HTML">
-                    <label for="html">HTML</label>
-                </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="html" name="interesses" value="HTML">
+                        <label for="html">HTML</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="checkbox" id="css" name="interesses" value="CSS">
-                    <label for="css">CSS</label>
-                </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="css" name="interesses" value="CSS">
+                        <label for="css">CSS</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="checkbox" id="javascript" name="interesses" value="JavaScript">
-                    <label for="javascript">JavaScript</label>
-                </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="javascript" name="interesses" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="checkbox" id="design" name="interesses" value="Design">
-                    <label for="design">Design</label>
-                </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="design" name="interesses" value="Design">
+                        <label for="design">Design</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="checkbox" id="banco" name="interesses" value="Banco de Dados">
-                    <label for="banco">Banco de Dados</label>
-                </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="banco" name="interesses" value="Banco de Dados">
+                        <label for="banco">Banco de Dados</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="checkbox" id="redes" name="interesses" value="Redes">
-                    <label for="redes">Redes de Computadores</label>
-                </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="redes" name="interesses" value="Redes">
+                        <label for="redes">Redes de Computadores</label>
+                    </div>
 
-                <div class="opcao">
-                    <input type="checkbox" id="programacao" name="interesses" value="Programação">
-                    <label for="programacao">Programação</label>
-                </div>
-            </div>
-
-            </div>
+                    <div class="opcao">
+                        <input type="checkbox" id="programacao" name="interesses" value="Programação">
+                        <label for="programacao">Programação</label>
+                    </div>
             </div>
 
             <div class="form-group">
                 <label for="curso">Curso:</label>
 
-                <select id="curso" name="curso" required>
-                    <option >Selecione seu curso</option>
-                    <option value="Informática">Informática</option>
-                    <option value="Programação">Programação</option>
-                    <option value="Desenvolvimento Web">Desenvolvimento Web</option>
-                    <option value="Redes de Computadores">Redes de Computadores</option>
-                    <option value="Análise de Sistemas">Análise de Sistemas</option>
-                    <option value="Outro">Outro</option>
-                </select>
+                    <select id="curso" name="curso" required>
+                        <option value="">Selecione seu curso</option>
+                        <option value="Informática">Informática</option>
+                        <option value="Programação">Programação</option>
+                        <option value="Desenvolvimento Web">Desenvolvimento Web</option>
+                        <option value="Redes de Computadores">Redes de Computadores</option>
+                        <option value="Análise de Sistemas">Análise de Sistemas</option>
+                        <option value="Outro">Outro</option>
+                    </select>
             </div>
 
             <div class="form-group">
                 <label for="descricao">Sobre mim:</label>
-                <textarea id="descricao" name="descricao"
-                          placeholder="Escreva um pouco sobre você"
-                          required></textarea>
+                <textarea id="descricao" name="descricao" placeholder="Escreva um pouco sobre você"></textarea>
             </div>
 
             <div class="botoes">
                 <button type="button" onclick="mensagem()">Salvar</button>
                 <button type="reset" onclick="limparMensagem()">Limpar</button>
             </div>
+            <div id="mensagem" style="display: none;"></div>
         </form>
     </main>
-    <script ></script>
+    <script type="text/javascript">
+        function mensagem() {
+            const msg = document.querySelector('#mensagem');
+            const nome = document.querySelector('#nome').value;
+            const email = document.querySelector('#email').value;
+            const nascimento = document.querySelector('#nascimento').value;
+            const curso = document.querySelector('#curso').value;
+
+            const sexo = document.querySelector('input[name="sexo"]:checked');
+            const contato = document.querySelector('input[name="contato"]:checked');
+            const interesses = document.querySelectorAll('input[name="interesses"]:checked');
+
+            msg.style.display = 'block';
+
+            if (nome === '' || email === '' || nascimento === '' || curso === '' ||sexo === null || contato === null ||
+                interesses.length === 0) {
+                msg.className = 'erro';
+                msg.textContent = 'Preencha todos os campos obrigatórios!';
+                return;
+            }
+
+            if (!/^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/.test(email)) {
+                msg.className = 'erro';
+                msg.textContent = 'Digite um e-mail válido!';
+                return;
+            }
+
+            if (!validaCPF()) {
+                return;
+            }
+
+            const data = new Date(nascimento + 'T00:00:00');
+            const hoje = new Date();
+            const limite = new Date();
+
+            limite.setFullYear(hoje.getFullYear() - 120);
+
+            if (data > hoje || data < limite) {
+                msg.className = 'erro';
+                msg.textContent = 'Data de nascimento inválida!';
+                return;
+            }
+
+            msg.className = 'sucesso';
+            msg.textContent = 'Perfil cadastrado com sucesso!';
+            document.querySelector('form').reset();
+
+        }
+
+        function validaCPF() {
+            const cpf = document.querySelector('#cpf').value;
+            const msg = document.querySelector('#mensagem');
+
+            if (!/^[0-9]{11}$/.test(cpf)) {
+
+                msg.style.display = 'block';
+                msg.className = 'erro';
+                msg.textContent = 'CPF inválido.\nDeve conter 11 algarismos.';
+                return false;
+            }
+            return true;
+        }
+
+        function limparMensagem() {
+            const msg = document.querySelector('#mensagem');
+            msg.style.display = 'none';
+            msg.textContent = '';
+        }
+
+    </script>
 </body>
 </html>
