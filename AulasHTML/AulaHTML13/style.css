@@ -6,3 +6,178 @@ nome_aluno: Maria Fernanda de Oliveira Zanotto
 email_aluno: maria.zanotto@edu.senai.br
 turma: TBE-1BAA-26
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E6D9F2;
+    color: #333333;
+}
+
+header {
+    background-color: #2E1648;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.titulo1 {
+    font-family: 'Playfair Display', serif;
+    color: rgb(66, 1, 106);
+}
+
+main {
+    padding: 40px 20px;
+}
+
+form {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.foto {
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+form input:not([type="radio"]):not([type="checkbox"]),
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form select {
+    background-color: white;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.opcao {
+    margin-bottom: 8px;
+}
+
+form .opcao input {
+    width: auto;
+    margin-right: 8px;
+}
+
+form .opcao label {
+    display: inline;
+}
+
+form button {
+    background-color: #FAECA5;
+    color: #2D1551;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 8px;
+}
+
+form button:hover {
+    background-color: #2D1551;
+    color: white;
+}
+
+#mensagem {
+    width: 60%;
+    margin: 20px auto;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    white-space: pre-line;
+}
+
+.erro {
+    color: red;
+    background-color: #f8d7da;
+}
+
+.sucesso {
+    color: green;
+    background-color: #d4edda;
+}
+
+@media (max-width: 700px) {
+    form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #mensagem {
+        width: 100%;
+    }
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.container pre {
+    background-color: #F5F0FA;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.container code {
+    font-family: monospace;
+    color: #2E1648;
+}
+
+.container .titulo {
+    font-family: 'Playfair Display', serif;
+    color: #2E1648;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+}
