@@ -6,3 +6,82 @@ nome_aluno: Maria Fernanda de Oliveira Zanotto
 email_aluno: maria.zanotto@edu.senai.br
 turma: TBE-1BAA-26
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E6D9F2;
+    color: #333333;
+}
+header {
+    background-color: #2E1648;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+.titulo {
+    font-family: 'Playfair Display', serif;
+    color: #2D1551;
+}
+header .titulo {
+    color: white;
+}
+.section2 {
+    padding: 30px;
+    text-align: center;
+}
+form {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #E6D9F2;
+    color: #333333;
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid #B8A9C5;
+}
+input:focus {
+    outline: 2px solid #8E6BBE;
+}
+button {
+    background-color: #FAECA5;
+    color: #2D1551;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2D1551;
+    color: white;
+}
+#mensagem {
+    color: green;
+    margin-bottom: 15px;
+}
+footer {
+    background-color: #2E1648;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    margin: 10px;
+}
