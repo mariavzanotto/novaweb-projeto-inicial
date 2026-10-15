@@ -12,9 +12,37 @@ turma: TBE-1BAA-26
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro de Leitor</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <section class="section1" id="inicio">
+            <h1 class="titulo">Entre no mundo dos livros</h1>
+            <p class="descricao">Preencha seus dados para fazer parte da nossa comunidade de leitores.</p>
+        </section>
+    </header>
+    <main>
+        <section class="section2" id="formulario">
+            <h2 class="titulo">Cadastro de leitor</h2>
+            <form>
+                <label for="nome" class="label">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required disabled>
+                <label for="email" class="label">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required disabled>
+                <label for="telefone" class="label">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone com DDD" minlength="11" maxlength="11" pattern="[0-9]{11}" required disabled>
+                <label for="idade" class="label">Idade:</label>
+                <input type="number" id="idade" name="idade" placeholder="Digite sua idade" min="1" max="116" step="1" required disabled>
+                <button type="button" id="habilitar">Habilitar próximo campo</button>
+                <button type="button" id="concluido">Concluído</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Livraria — Um universo de histórias espera por você.</p>
+        <p>&copy; 2026 - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
