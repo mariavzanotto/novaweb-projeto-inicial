@@ -14,4 +14,4 @@ function cadastrar(event) {
     const mensagem = document.getElementById("mensagem");
 
     mensagem.textContent = "Cadastrado com sucesso! Bem-vindo(a), " + nome + "!";
-}
+} 
